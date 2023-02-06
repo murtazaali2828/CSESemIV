@@ -65,6 +65,7 @@ int findGCD(int m, int n){
    				else{
    					break;
    				}
+				count++;
    			}
    			sum *= primes[k];	
    		}
