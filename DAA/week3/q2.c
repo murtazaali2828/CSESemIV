@@ -5,7 +5,7 @@
 int opcount = 1;
 
 int stringMatching(char* main1, char* child, int n, int m){
-	for(int i=0;i<n-m;i++){
+	for(int i=0;i<=(n-m);i++){
 		opcount++;
 		int j=0;
 		while(j<m && child[j]==main1[i+j]){
